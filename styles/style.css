@@ -6,11 +6,6 @@
     box-sizing: border-box;
 }
 
-.body {
-    grid-template-columns: repeat(3);
-    grid-template-rows: repeat(3);
-}
-
 .container {
     display: grid;
     align-items: center;
@@ -29,21 +24,27 @@
 #aside{
     height: 75vh;
     width: 25vw;
-    background-color: blueviolet;
+    background-color: lightpink;
     text-align: center;
 }
 
 .section {
     height: 75vh;
     width: 75vw;
-    background-color: darkolivegreen;
-    margin-left: auto;
+    background-color:lightgreen;
+    /*margin-left: auto;*/
     grid-row: auto;
     text-align: center;
 }
 
+.end {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
 .footer {
-    background-color:lightcoral ;
+    background-color:lightsalmon ;
     height: 10vh;
     width: 100vw;
     text-align: center;
